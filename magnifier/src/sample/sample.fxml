@@ -1,0 +1,15 @@
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml" alignment="center">
+
+    <VBox fx:id="container" spacing="20">
+        <ImageView fx:id="imageView" preserveRatio="true" fitWidth="300">
+            <image>
+                <Image url="@bbw.jpg"/>
+            </image>
+        </ImageView>
+    </VBox>
+</StackPane>
