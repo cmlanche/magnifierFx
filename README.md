@@ -1,0 +1,2 @@
+# magnifierFx
+magnifier for javafx
